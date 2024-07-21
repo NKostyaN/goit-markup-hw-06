@@ -644,11 +644,6 @@ img {
   padding-bottom: 96px;
   background: var(--navy-blue-cl);
 }
-@media screen and (min-width: 768px) {
-  .footer {
-    padding: 96px;
-  }
-}
 @media screen and (min-width: 1158px) {
   .footer {
     padding: 100px 0 100px 0;
@@ -669,6 +664,7 @@ img {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
+    width: 584px;
   }
 }
 @media screen and (min-width: 1158px) {
@@ -676,6 +672,7 @@ img {
     flex-wrap: nowrap;
     row-gap: 0;
     column-gap: 0;
+    width: 100%;
   }
 }
 
